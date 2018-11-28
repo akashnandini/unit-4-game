@@ -62,14 +62,14 @@ $(document).ready(function() {
             win++;
             console.log("wins== "+win);
             $("#wins").text(win);
-            $("#msg").text("You win!");
+            $("#msg").text("You won!!");
             reset();
         }
         else if (tot_score>random_number) {
             loss++;
             $("#losses").text(loss);
             console.log("loss== "+loss);
-            $("#msg").text("You loss!");
+            $("#msg").text("You lost!!");
             reset();
         }
     });
@@ -84,14 +84,14 @@ $(document).ready(function() {
             win++;
             console.log("wins== "+win);
             $("#wins").text(win);
-            $("#msg").text("You win!");
+            $("#msg").text("You won!!");
             reset();
         }
         else if (tot_score>random_number) {
             loss++;
             $("#losses").text(loss);
             console.log("loss== "+loss);
-            $("#msg").text("You loss!");
+            $("#msg").text("You lost!!");
             reset();
         }        
     });
@@ -106,14 +106,14 @@ $(document).ready(function() {
             win++;
             console.log("wins== "+win);
             $("#wins").text(win);
-            $("#msg").text("You win!");
+            $("#msg").text("You won!!");
             reset();
         }
         else if (tot_score>random_number) {
             loss++;
             $("#losses").text(loss);
             console.log("loss== "+loss);
-            $("#msg").text("You loss!");
+            $("#msg").text("You lost!!");
             reset();
         }        
     });
@@ -128,14 +128,14 @@ $(document).ready(function() {
             win++;
             console.log("wins== "+win);
             $("#wins").text(win);
-            $("#msg").text("You win!");
+            $("#msg").text("You won!!");
             reset();
         }
         else if (tot_score>random_number) {
             loss++;
             $("#losses").text(loss);
             console.log("loss== "+loss);
-            $("#msg").text("You loss!");
+            $("#msg").text("You lost!!");
             reset();
         }       
     }); 
