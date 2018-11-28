@@ -1,4 +1,3 @@
-//Global Variables   
 
 // Run Javascript when the HTML has finished loading
 $(document).ready(function() {
@@ -27,9 +26,10 @@ $(document).ready(function() {
     var win = 0;
     var loss = 0;
 
-    console.log("win::::: "+win);
+    //console.log("win::::: "+win);
     $("#wins").text(win);
     $("#losses").text(loss);
+    $("#tot_score").text(tot_score);
 
     function reset(){
         var random_number = Math.floor((Math.random() * 120) + 19);    
@@ -43,88 +43,107 @@ $(document).ready(function() {
         var purple = Math.floor((Math.random() * 12) + 1);
         var emerald = Math.floor((Math.random() * 12) + 1);
 
-        console.log("ruby== "+ruby);
+        /*console.log("ruby== "+ruby);
         console.log("sapphire== "+sapphire);
         console.log("purple== "+purple);
-        console.log("emerald== "+emerald);
-        
+        console.log("emerald== "+emerald);*/
+        tot_score = 0;
+        win = 0;
+        loss = 0;
         $("#tot_score").text(tot_score);
         $("#wins").text(win);
-        $("#losses").text(loss);
+        $("#losses").text(loss);   }
 
-    }
-
-
-    function win(){   
-            console.log(tot_score);
-            win++;
-            console.log("wins== "+win);
-            $("#wins").text(win);
-           // $("#wins").append(win);
-            $("#msg").text("You win!");
-            reset();
-    }
-
-    function loss(){
-            loss++;
-            $("#losses").text(win);
-            console.log("loss== "+loss);
-            $("#msg").text("You loss!");
-            reset();        
-    }
-    
+    //Ruby crystal
    
     $("#ruby_crystal").on("click", function() {
         tot_score = tot_score+ruby;
         $("#tot_score").text(tot_score);
         console.log("tot_score== "+tot_score);
+       
         if(tot_score===random_number){
-            win();
+            win++;
+            console.log("wins== "+win);
+            $("#wins").text(win);
+            $("#msg").text("You win!");
+            reset();
         }
         else if (tot_score>random_number) {
-            loss();
+            loss++;
+            $("#losses").text(loss);
+            console.log("loss== "+loss);
+            $("#msg").text("You loss!");
+            reset();
         }
         
 
     });
+
+    //Sapphire crystal
 
     $("#sapphire_crystal").on("click", function() {
         tot_score = tot_score+sapphire;
         $("#tot_score").text(tot_score);
         console.log("tot_score== "+tot_score);
         if(tot_score===random_number){
-            win();
+            win++;
+            console.log("wins== "+win);
+            $("#wins").text(win);
+            $("#msg").text("You win!");
+            reset();
         }
         else if (tot_score>random_number) {
-            loss();
-        }
-        
+            loss++;
+            $("#losses").text(loss);
+            console.log("loss== "+loss);
+            $("#msg").text("You loss!");
+            reset();
+        }        
 
     });
+
+    //Purple crystal
 
     $("#purple_crystal").on("click", function() {
         tot_score = tot_score+purple;
         $("#tot_score").text(tot_score);
         console.log("tot_score== "+tot_score);
         if(tot_score===random_number){
-            win();
+            win++;
+            console.log("wins== "+win);
+            $("#wins").text(win);
+            $("#msg").text("You win!");
+            reset();
         }
         else if (tot_score>random_number) {
-            loss();
-        }
-        
+            loss++;
+            $("#losses").text(loss);
+            console.log("loss== "+loss);
+            $("#msg").text("You loss!");
+            reset();
+        }        
 
     });
+
+    //Emerald crystal
 
     $("#emerald_crystal").on("click", function() {
         tot_score = tot_score+emerald;
         $("#tot_score").text(tot_score);
         console.log("tot_score== "+tot_score);
         if(tot_score===random_number){
-            win();
+            win++;
+            console.log("wins== "+win);
+            $("#wins").text(win);
+            $("#msg").text("You win!");
+            reset();
         }
         else if (tot_score>random_number) {
-            loss();
+            loss++;
+            $("#losses").text(loss);
+            console.log("loss== "+loss);
+            $("#msg").text("You loss!");
+            reset();
         }       
 
     }); 
