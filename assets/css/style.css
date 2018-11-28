@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/crystal_background.jpg");
+    background-image: url("../images/crystal_background3.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,7 +11,7 @@ body {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    background: orange;
+    background: rgb(163, 188, 196);
     display: block;
     width: 200px;
     margin-left: 20px;
@@ -23,12 +23,12 @@ body {
     background: whitesmoke;
     margin-left: 20px;
     margin-top: 20px;
-    width:40%;
-    height:400px;
+    width:250px;
+    height:300px;
 }
 
 .para{
-    color: green;
+    color: rgb(23, 55, 70);
     margin-left: 10px;
     margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -38,39 +38,40 @@ body {
 
 .random_score{
     float: left;
-    background:green;
+    background:rgb(130, 176, 229);
     color:purple;
     font-family: 'Times New Roman', Times, serif;
-    width: 50%;
-    height: 100px;
+    width: 30%;
+    height: 80px;
     margin-top: 20px;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-left:6px;
 }
 
 .result_score{
     float: left;
     position: relative;
-    background:rgb(113, 199, 173);
-    color:blue;
+    background:rgb(166, 192, 194);
+    color:rgb(38, 64, 102);
     font-family: 'Times New Roman', Times, serif;
-    width: 80px;
-    height: 100px;
+    width: 20%;
+    height: 80px;
     margin-left: 20px;
     margin-top: 20px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 .img-thumbnail {
     background-color: white;
     border: 2px solid white;
-    height: 85px;
-    width: 85px;
-    margin-right: 3px;
-    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    margin-right: 2px;
+    margin-left: 6px;
   }
 
 .gems-available {
@@ -83,10 +84,10 @@ body {
   .total{
     clear: both;
     float: none;
-    background:rgb(76, 223, 174);
+    background: rgb(146, 170, 179);
     color:whitesmoke;
     font-family: 'Times New Roman', Times, serif;
-    width: 10%;
+    width: 30%;
     height: 35px;
     margin-left: 20px;
     margin-top: 20px;
@@ -95,14 +96,14 @@ body {
 }  
 
 .total_score{
-    background:rgb(76, 223, 174);
+    background: rgb(146, 170, 179);
     color:whitesmoke;
     font-family: 'Times New Roman', Times, serif;
-    width: 25%;
+    width: 30%;
     height: 100px;
     margin-left: 20px;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
 }  

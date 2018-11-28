@@ -20,7 +20,6 @@ $(document).ready(function() {
     console.log("sapphire== "+sapphire);
     console.log("purple== "+purple);
     console.log("emerald== "+emerald);
-
     
     var tot_score = 0;
     var win = 0;
