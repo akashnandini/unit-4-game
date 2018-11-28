@@ -113,11 +113,11 @@ body {
         height: auto;
     }
     .random_score{        
-        height: 54px;       
+        height: 80px;       
     }
     
     .result_score{
-        height: auto;        
+        height: 80px;        
     }
     .total{       
         width: 40%;
@@ -130,7 +130,7 @@ body {
         height: auto;
     }  
     .img-thumbnail {
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
     }
 }
