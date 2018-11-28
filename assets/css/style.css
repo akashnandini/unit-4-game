@@ -112,4 +112,19 @@ body {
     .description{
         height: auto;
     }
+    .random_score{        
+        height: 54px;       
+    }
+    
+    .result_score{
+        height: auto;        
+    }
+    .total{       
+        width: 40%;
+        height: auto;
+    }  
+    .total_score{
+        width: 40%;
+        height: auto;
+    }  
 }
