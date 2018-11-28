@@ -133,7 +133,8 @@ body {
     }
     
     .result_score{
-        height: 80px;        
+        height: 80px; 
+        font-size: 15px;       
     }
     .total{       
         width: 40%;
