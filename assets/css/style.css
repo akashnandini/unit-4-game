@@ -25,6 +25,7 @@ body {
     margin-top: 20px;
     width:250px;
     height:300px;
+    margin-right: 20px;
 }
 
 .para{
@@ -39,7 +40,7 @@ body {
 .random_score{
     float: left;
     background:rgb(130, 176, 229);
-    color:purple;
+    color:rgb(38, 64, 102);
     font-family: 'Times New Roman', Times, serif;
     width: 30%;
     height: 80px;
@@ -108,7 +109,22 @@ body {
     margin-bottom: 20px;
 }  
 
-@media screen and (max-width: 640px) {
+/* Width at 980px and below */
+
+@media only screen and (max-width: 980px) {
+	.description{
+        height: auto;
+        width: 960px;
+    }
+    .img-thumbnail {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+/* Width at 768px and below */
+
+@media screen and (max-width: 768px) {
     .description{
         height: auto;
     }
