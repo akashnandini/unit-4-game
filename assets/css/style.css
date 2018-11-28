@@ -122,9 +122,15 @@ body {
     .total{       
         width: 40%;
         height: auto;
+        font-size: 15px;
+        padding: 5px;
     }  
     .total_score{
         width: 40%;
         height: auto;
     }  
+    .img-thumbnail {
+        height: 80px;
+        width: 80px;
+    }
 }
