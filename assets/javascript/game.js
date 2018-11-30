@@ -4,8 +4,8 @@ $(document).ready(function() {
 
     //The player will be shown a random number at the start of the game.
     //The random number shown at the start of the game should be between 19 - 120.
-
-    var random_number = Math.floor((Math.random() * 120) + 19);    
+    //Math.floor(Math.random() * (max - min + 1)) + min;
+    var random_number = Math.floor((Math.random() * 102) + 19);    
     console.log(random_number);
     $("#random").text(random_number);
 
@@ -49,7 +49,8 @@ $(document).ready(function() {
         tot_score = 0;
         $("#tot_score").text(tot_score);
         $("#wins").text(win);
-        $("#losses").text(loss);   }
+        $("#losses").text(loss);  
+    }
 
     //Ruby crystal
    
